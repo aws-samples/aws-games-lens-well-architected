@@ -44,7 +44,7 @@ To add the lens to, follow the steps under ["New Installation"](#new-installatio
 
 ![Well Architected Draft Lens](img/publish_lens.png)
 
-6. Give the custom lens a version name. Its easiest to copy the version number from the file name, such as v1.3.2, but any version will do since you are only importing for use in your own account.  Click Publish.
+6. Give the custom lens a version name. Its easiest to copy the version number from the file name, such as v1.0.0, but any version will do since you are only importing for use in your own account.  Click Publish.
 
 ![Well Architected Publish Lens](img/version_lens.png)
 
