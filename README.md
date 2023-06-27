@@ -63,6 +63,13 @@ Give the new lens version a version name and publish it.
 The next time you go to the Workloads tab, you'll be prompted to upgrade any workload review that was using the old version of the lens. As part of the ugprade process, 
 you'll be asked to save the current state of the review as a "milestone" so that you can go back and reference it at any time. 
 
+### Lens Versioning
+Updates to the Games Industry Lens will follow standard versioning semantics according to the below guidelines:
+
+- **Major Version Release (i.e. v1.0.0)**: New questions have been added to the lens that may impact the results of a workload review.
+- **Minor Version Release (i.e. v1.1.0)**: Existing questions and/or best practices have been modified that may impact the results of a workload review.
+- **Patch Version Release (i.e. v1.1.1)**: Bug fixes/spelling errors. Reserved for changes that should not impact the results of a workload review.
+
 ---
 
 ## Beginning a new review
