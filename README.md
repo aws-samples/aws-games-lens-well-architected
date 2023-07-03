@@ -4,14 +4,21 @@
 
 ## Introduction
 
-![AWS Well Architected Logo](img/gt-well-architected.png)
+|||
+|-----|---------------|
+|![AWS Well Architected Logo](img/gt-well-architected.png) | This repository holds the latest version of the Games Industry Lens for the AWS Well-Architected Framework.  The Lens is for AWS customers and partners to use when assessing Game Workloads for best practices and design principles according to the AWS Well-Architected framework. This lens is complementary to the [Well Architected Framework Review (WAFR)](https://aws.amazon.com/architecture/well-architected), and provides additional readiness checks to assist a team preparing to support a new AWS workload or service. |
 
-This repository holds the latest version of the Games Industry Lens for the AWS Well-Architected Framework.  The Lens is for AWS customers and partners to use when assessing Game Workloads for best practices and design principles according to the AWS Well-Architected framework. 
+---
 
-The Games Industry Lens is available in whitepaper (HTML) format and PDF format (for download) at the AWS docs site: https://docs.aws.amazon.com/wellarchitected/latest/games-industry-lens/games-industry-lens.html
+## Use
 
-This Lens is provided as a JSON file to upload into your AWS account to use when reviewing your workload. To add this lens as a [Custom lens for the AWS Well Architected Tool](https://docs.aws.amazon.com/wellarchitected/latest/userguide/lenses-custom.html), follow the steps 
-under ["New Installation"](#new-installation), below. 
+The [AWS Well Architected Tool](https://docs.aws.amazon.com/wellarchitected/latest/userguide/intro.html) is a service in the cloud that provides a consistent process for 
+measuring your architecture using AWS best practices. The Tool helps you throughout the product lifecycle by assisting with documenting the decisions that you make, 
+providing recommendations for improving your workload based on best practices, and guiding you in making your workloads more reliable, secure, efficient, and cost-effective.
+
+The Games Industry Lens is available in whitepaper (HTML) format and PDF format (for download) at the AWS docs site: https://docs.aws.amazon.com/wellarchitected/latest/games-industry-lens/games-industry-lens.html. This repository contains the best practices from this whitepaper as a [custom lens](https://docs.aws.amazon.com/wellarchitected/latest/userguide/lenses-custom.html) for the AWS Well-Architected Tool. 
+
+To add the lens to, follow the steps under ["New Installation"](#new-installation), below. 
 
 ---
 
@@ -37,7 +44,7 @@ under ["New Installation"](#new-installation), below.
 
 ![Well Architected Draft Lens](img/publish_lens.png)
 
-6. Give the custom lens a version name. Its easiest to copy the version number from the file name, such as v1.3.2, but any version will do since you are only importing for use in your own account.  Click Publish.
+6. Give the custom lens a version name. Its easiest to copy the version number from the file name, such as v1.0.0, but any version will do since you are only importing for use in your own account.  Click Publish.
 
 ![Well Architected Publish Lens](img/version_lens.png)
 
@@ -55,6 +62,13 @@ Give the new lens version a version name and publish it.
 
 The next time you go to the Workloads tab, you'll be prompted to upgrade any workload review that was using the old version of the lens. As part of the ugprade process, 
 you'll be asked to save the current state of the review as a "milestone" so that you can go back and reference it at any time. 
+
+### Lens Versioning
+Updates to the Games Industry Lens will follow standard versioning semantics according to the below guidelines:
+
+- **Major Version Release (i.e. v1.0.0)**: New questions have been added to the lens that may impact the results of a workload review.
+- **Minor Version Release (i.e. v1.1.0)**: Existing questions and/or best practices have been modified that may impact the results of a workload review.
+- **Patch Version Release (i.e. v1.1.1)**: Bug fixes/spelling errors. Reserved for changes that should not impact the results of a workload review.
 
 ---
 
